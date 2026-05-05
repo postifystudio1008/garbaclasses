@@ -45,7 +45,7 @@ export const Pricing = () => {
 
             <ul className="space-y-4 mb-10 flex-grow relative z-10">
               {[
-                '4 High-Energy Garba Reels',
+                '8-10 High-Energy Garba Reels',
                 'Local Reach Strategy',
                 'Trending Garba Audio Curation',
                 'Engaging Caption Writing'
@@ -84,9 +84,9 @@ export const Pricing = () => {
               <div className="mb-8 relative z-10 mt-4">
                 <div className="flex items-center gap-2 mb-2">
                   <Star className="w-6 h-6 text-gold fill-gold animate-pulse" />
-                  <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-electric-yellow to-gold">Navratri Season Pass</h3>
+                  <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-electric-yellow to-gold">Season Pass</h3>
                 </div>
-                <p className="text-white/80 mb-6">The ultimate VIP package for complete digital domination during the 9 nights of Navratri.</p>
+                <p className="text-white/80 mb-6">The ultimate VIP package for complete digital domination till Navratri for garba classes.</p>
                 <div className="flex items-baseline gap-2">
                   <span className="text-5xl font-black text-white">₹25,000</span>
                   <span className="text-white/40 text-sm font-bold uppercase tracking-widest bg-white/5 px-2 py-1 rounded">One Time</span>
