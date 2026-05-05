@@ -86,7 +86,7 @@ export const Pricing = () => {
                   <Star className="w-6 h-6 text-gold fill-gold animate-pulse" />
                   <h3 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-electric-yellow to-gold">Season Pass</h3>
                 </div>
-                <p className="text-white/80 mb-6">The ultimate VIP package for complete digital domination till Navratri for garba classes.</p>
+                <p className="text-white/80 mb-6">The ultimate VIP package for complete digital domination till Navratri.</p>
                 <div className="flex items-baseline gap-2">
                   <span className="text-5xl font-black text-white">₹25,000</span>
                   <span className="text-white/40 text-sm font-bold uppercase tracking-widest bg-white/5 px-2 py-1 rounded">One Time</span>
