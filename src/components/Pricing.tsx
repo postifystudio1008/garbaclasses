@@ -22,7 +22,7 @@ export const Pricing = () => {
             transition={{ delay: 0.1 }}
             className="text-white/80 text-lg max-w-2xl mx-auto"
           >
-            Don't let your Garba classes go unnoticed. Choose the ultimate high-energy content package and let's make your garba classes fully packed this season.
+            Don't let your Garba classes go unnoticed. Choose the ultimate high-energy content package and let's build massive hype to drive maximum student enquiries this season.
           </motion.p>
         </div>
 
@@ -88,23 +88,23 @@ export const Pricing = () => {
                 </div>
                 <p className="text-white/80 mb-6">The ultimate VIP package for complete digital domination till Navratri.</p>
                 <div className="flex items-baseline gap-2">
-                  <span className="text-5xl font-black text-white">₹25,000</span>
+                  <span className="text-5xl font-black text-white">₹29,999</span>
                   <span className="text-white/40 text-sm font-bold uppercase tracking-widest bg-white/5 px-2 py-1 rounded">One Time</span>
                 </div>
               </div>
 
               <div className="bg-gradient-to-r from-bandhani-red/10 to-gold/10 border border-gold/20 rounded-xl p-4 mb-6 relative z-10">
-                <p className="text-gold text-sm font-bold text-center">🔥 Fully Booked Garba Classes Guaranteed</p>
+                <p className="text-gold text-sm font-bold text-center">🔥 Maximum Student Enquiries & Hype</p>
               </div>
 
               <ul className="space-y-4 mb-10 flex-grow relative z-10">
                 {[
                   '2 Cinematic Garba Reels (4K) /week',
                   'Professional Video Shooting',
+                  'Priority Event Coverage with camera crew',
                   'Trending content creation',
                   'Instagram Growth Strategy',
-                  'Targeted Navratri Ad Campaigns',
-                  'Priority Event Coverage & Support',
+                  'Targeted Navratri Ad Campaigns'
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <div className="w-6 h-6 rounded-full bg-gradient-to-br from-gold to-bandhani-red flex items-center justify-center shrink-0 mt-0.5 shadow-lg shadow-gold/20">
