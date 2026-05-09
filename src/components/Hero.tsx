@@ -7,9 +7,9 @@ export const Hero = () => {
       {/* Cinematic Background Blur */}
       <div className="absolute inset-0 z-0">
         {/* Navratri themed background image */}
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1605806616949-1e87b487cb2a?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20 scale-110 blur-[2px]" />
+        <div className="absolute inset-0 bg-[url('/garba_bg.png')] bg-cover bg-center opacity-70 scale-110" />
         {/* Gradients to blend into the theme */}
-        <div className="absolute inset-0 bg-gradient-to-b from-deep-charcoal via-deep-charcoal/80 to-deep-charcoal" />
+        <div className="absolute inset-0 bg-gradient-to-b from-deep-charcoal/60 via-deep-charcoal/40 to-deep-charcoal/90" />
         {/* Colorful glows */}
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-bandhani-red/20 rounded-full blur-[100px]" />
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-electric-yellow/10 rounded-full blur-[100px]" />
@@ -61,7 +61,7 @@ export const Hero = () => {
             className="group relative px-8 py-5 bg-gradient-to-r from-electric-yellow via-gold to-bandhani-red rounded-xl text-black text-lg font-black flex items-center gap-3 hover:scale-105 transition-all shadow-[0_0_30px_rgba(255,49,49,0.4)]"
           >
             <Zap className="w-5 h-5" />
-            Get Fully Booked Today
+            Maximize Your Class Enquiries
             <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
           </a>
 
